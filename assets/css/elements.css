@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 html {
@@ -9,6 +10,8 @@ html {
 }
 
 body {
+    min-width: 50rem;
+    max-width: 100%;
     font-family: 'Open Sans', sans-serif;
     font-size: 2rem;
     color: var(--primary-color);
@@ -25,7 +28,7 @@ h1 {
 }
 
 h2 {
-    font-size: 5.5rem;
+    font-size: 6rem;
     margin-bottom: 5rem;
     text-transform: uppercase;
     line-height: 1.2;
@@ -75,7 +78,8 @@ table caption {
 }
 
 table td, table th {
-    padding: 0.5rem;
+    white-space: nowrap;
+    padding: 1rem;
     text-align: left;
     border: 0.1rem solid var(--terceary-color);
 }
